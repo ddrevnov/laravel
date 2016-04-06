@@ -7,14 +7,14 @@
         
     </head>
     <body>
-        <div class="container">
-            <alert type="success">Alert!</alert>
+        <nav>
+    <ul>
+        <li><a href="#" v-link="{path:'/about'}">About</a></li>
+        <li><a href="#" v-link="{path:'/contact'}">Contact</a></li>
+    </ul>
+  </nav>
+  <router-view><router-view>
 
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-
-        <script src="/js/main.js"></script>
+        <script src="/dist/build.js"></script>
     </body>
 </html>
