@@ -15,6 +15,6 @@
   </nav>
   <router-view><router-view>
 
-        <script src="/js/build.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
